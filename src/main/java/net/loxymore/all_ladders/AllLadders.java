@@ -2,6 +2,8 @@ package net.loxymore.all_ladders;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.loxymore.all_ladders.block.ModBlocks;
+import net.loxymore.all_ladders.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class AllLadders implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

@@ -1,5 +1,11 @@
 {
   "block.all-ladders.jungle_ladder": "Jungle Ladder",
+  "block.all-ladders.spruce_ladder": "Spruce Ladder",
+  "block.all-ladders.birch_ladder": "Birch Ladder",
+  "block.all-ladders.acacia_ladder": "Acacia Ladder",
+  "block.all-ladders.crimson_ladder": "Crimson Ladder",
+  "block.all-ladders.warped_ladder": "Warped Ladder",
+  "block.all-ladders.dark_oak_ladder": "Dark Oak Ladder",
 
   "itemgroup.all_ladders": "All Ladders"
 }

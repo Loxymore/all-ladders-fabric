@@ -20,13 +20,31 @@ public class ModBlocks {
 
     public static final Block JUNGLE_LADDER = registerBlock("jungle_ladder",
             new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block SPRUCE_LADDER = registerBlock("spruce_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block BIRCH_LADDER = registerBlock("birch_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block ACACIA_LADDER = registerBlock("acacia_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CRIMSON_LADDER = registerBlock("crimson_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block DARK_OAK_LADDER = registerBlock("dark_oak_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block WARPED_LADDER = registerBlock("warped_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(AllLadders.MOD_ID,name),block);
     }
     private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries){
+        entries.add(SPRUCE_LADDER);
+        entries.add(BIRCH_LADDER);
         entries.add(JUNGLE_LADDER);
+        entries.add(ACACIA_LADDER);
+        entries.add(DARK_OAK_LADDER);
+        entries.add(CRIMSON_LADDER);
+        entries.add(WARPED_LADDER);
     }
 
     private static Item registerBlockItem(String name, Block block){

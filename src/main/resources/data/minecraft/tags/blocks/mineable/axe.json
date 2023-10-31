@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "all-ladders:jungle_ladder"
+    "all-ladders:jungle_ladder",
+    "all-ladders:spruce_ladder",
+    "all-ladders:birch_ladder",
+    "all-ladders:acacia_ladder",
+    "all-ladders:crimson_ladder",
+    "all-ladders:warped_ladder",
+    "all-ladders:dark_oak_ladder"
   ]
 }

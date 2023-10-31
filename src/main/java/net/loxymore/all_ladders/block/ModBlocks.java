@@ -32,6 +32,18 @@ public class ModBlocks {
             new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block WARPED_LADDER = registerBlock("warped_ladder",
             new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CHAIN_LADDER = registerBlock("chain_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.CHAIN).requiresTool()));
+    public static final Block MANGROVE_LADDER = registerBlock("mangrove_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block BAMBOO_LADDER = registerBlock("bamboo_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CHERRY_LADDER = registerBlock("cherry_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block IRON_LADDER = registerBlock("iron_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.METAL).requiresTool()));
+    public static final Block GOLDEN_LADDER = registerBlock("golden_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.METAL).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -43,8 +55,14 @@ public class ModBlocks {
         entries.add(JUNGLE_LADDER);
         entries.add(ACACIA_LADDER);
         entries.add(DARK_OAK_LADDER);
+        entries.add(MANGROVE_LADDER);
+        entries.add(BAMBOO_LADDER);
+        entries.add(CHERRY_LADDER);
         entries.add(CRIMSON_LADDER);
         entries.add(WARPED_LADDER);
+        entries.add(CHAIN_LADDER);
+        entries.add(IRON_LADDER);
+        entries.add(GOLDEN_LADDER);
     }
 
     private static Item registerBlockItem(String name, Block block){

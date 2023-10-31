@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "all-ladders:chain_ladder",
+    "all-ladders:iron_ladder",
+    "all-ladders:golden_ladder"
+  ]
+}

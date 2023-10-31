@@ -22,8 +22,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.JUNGLE_LADDER);
                         entries.add(ModBlocks.ACACIA_LADDER);
                         entries.add(ModBlocks.DARK_OAK_LADDER);
+                        entries.add(ModBlocks.MANGROVE_LADDER);
+                        entries.add(ModBlocks.BAMBOO_LADDER);
+                        entries.add(ModBlocks.CHERRY_LADDER);
                         entries.add(ModBlocks.CRIMSON_LADDER);
                         entries.add(ModBlocks.WARPED_LADDER);
+                        entries.add(ModBlocks.CHAIN_LADDER);
+                        entries.add(ModBlocks.IRON_LADDER);
+                        entries.add(ModBlocks.GOLDEN_LADDER);
                     }).build());
     public static void registerItemGroups(){
         AllLadders.LOGGER.info("Registering Mod Item Groups for the " + AllLadders.MOD_ID + " Mod !");

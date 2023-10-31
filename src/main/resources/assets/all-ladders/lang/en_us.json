@@ -6,6 +6,12 @@
   "block.all-ladders.crimson_ladder": "Crimson Ladder",
   "block.all-ladders.warped_ladder": "Warped Ladder",
   "block.all-ladders.dark_oak_ladder": "Dark Oak Ladder",
+  "block.all-ladders.chain_ladder": "Chain Ladder",
+  "block.all-ladders.mangrove_ladder": "Mangrove Ladder",
+  "block.all-ladders.bamboo_ladder": "Bamboo Ladder",
+  "block.all-ladders.cherry_ladder": "Cherry Ladder",
+  "block.all-ladders.iron_ladder": "Iron Ladder",
+  "block.all-ladders.golden_ladder": "Golden Ladder",
 
   "itemgroup.all_ladders": "All Ladders"
 }

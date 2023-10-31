@@ -7,6 +7,9 @@
     "all-ladders:acacia_ladder",
     "all-ladders:crimson_ladder",
     "all-ladders:warped_ladder",
-    "all-ladders:dark_oak_ladder"
+    "all-ladders:dark_oak_ladder",
+    "all-ladders:mangrove_ladder",
+    "all-ladders:bamboo_ladder",
+    "all-ladders:cherry_ladder"
   ]
 }

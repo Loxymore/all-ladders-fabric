@@ -1,7 +1,7 @@
 # A simple mod that adds new ladder types
 ## Recipes : 
 ![Alt text](https://github.com/Loxymore/all-ladders-fabric/blob/master/images/recipes.gif?raw=true)
-\n(Not all recipes are shown here but the rest can be derived from these ones).
+<br>(Not all recipes are shown here but the rest can be derived from these ones).
 ## In game : 
 ![Alt text](https://github.com/Loxymore/all-ladders-fabric/blob/master/images/In-Game.png?raw=true)
 ## Original Art :

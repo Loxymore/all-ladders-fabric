@@ -2,4 +2,4 @@
 Recipes : 
 ![Alt text](https://github.com/Loxymore/all-ladders-fabric/blob/master/images/recipes.gif?raw=true)
 In game : 
-![Alt text](https://github.com/Loxymore/all-ladders-fabric/blob/master/images/Ing-Game.png?raw=true)
+![Alt text](https://github.com/Loxymore/all-ladders-fabric/blob/master/images/In-Game.png?raw=true)

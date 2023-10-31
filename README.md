@@ -1,5 +1,6 @@
 # A simple fabric mod that adds new ladder types
 [<img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Frequires%2Ffabric-api_vector.svg&amp;n=-1" alt="Requires Fabric API">](https://modrinth.com/mod/fabric-api)
+[<img src="https://github.com/intergrav/devins-badges/blob/v2/assets/cozy/available/modrinth_64h.png?raw=true" alt="Avaliable on Modrinth" width="170">](https://modrinth.com/mod/all-ladders)
 ## Recipes : 
 ![Alt text](https://github.com/Loxymore/all-ladders-fabric/blob/master/images/recipes.gif?raw=true)
 <br>(Not all recipes are shown here but the rest can be derived from these ones).
